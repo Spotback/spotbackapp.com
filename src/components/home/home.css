@@ -1,0 +1,86 @@
+#home {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+.text-home {
+    display: block;
+    padding: 50px 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.info-home {
+    display: inline-block;
+    width: 40%;
+    max-width: 400px;
+    vertical-align: top;
+    padding: 50px;
+    color: rgb(255,255,255);
+    margin: 70px 30px 70px 50px;
+    border: 2px solid rgb(163, 198, 110);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(52,58,64), 0 0 30px rgb(52,58,64), 0 0 50px rgb(52,58,64);
+    background-color: rgba(52, 58, 64, 0.747);
+}
+
+.info-home span {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.phoneContainer {
+    display: inline-block;
+    width: 350px !important;
+    position: relative;
+}
+
+.phone {
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: 53px;
+    z-index: 1;
+}
+.screens {
+    width: 302px !important;
+    margin: 80px 0;
+    border-radius: 20px;
+}
+@media screen and (max-width: 889px) {
+
+    .text-home {
+        padding: 30px 10px;
+    }
+
+    .phoneContainer {
+        margin: 0 auto !important;
+        margin-top: 20px !important;
+        display: block;
+        width: 268px !important;
+        align-self: center;
+    }
+
+    .phone {
+        right: 0;
+        top: 11px;
+        width: 268px;
+    }
+
+    .screens {
+        width: 232px !important;
+        margin: 30px 0;
+    }
+
+    .info-home {
+        /* display: block; */
+        width: 70%;
+        padding: 25px;
+        margin: 10px 0 50px;
+    }
+
+    .info-home span {
+        font-size: 25px;
+    }
+
+}

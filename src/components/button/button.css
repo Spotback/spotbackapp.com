@@ -1,0 +1,42 @@
+.btn {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    border: 2px solid rgb(52,58,64);
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(163, 198, 110);
+    color: rgb(52,58,64);
+    border-radius: 10px;
+    width: 100px;
+    transition: 0.5s;
+    animation: flash 4s infinite ease-in-out;
+}
+
+@keyframes flash {
+    0% {
+        color: rgb(163, 198, 110);
+        background: rgb(52,58,64);
+        box-shadow: 0 0 10px rgb(195, 243, 124), 0 0 40px rgb(195, 243, 124), 0 0 80px rgb(195, 243, 124);
+    }
+    33% {
+        color: rgb(52,58,64);
+        background: rgb(163, 198, 110);
+        transform: scale(1.2);
+    }
+    100% {
+        color: rgb(163, 198, 110);
+        background: rgb(52,58,64);
+        box-shadow: 0 0 10px rgb(195, 243, 124), 0 0 40px rgb(195, 243, 124), 0 0 80px rgb(195, 243, 124);
+    }
+}
+
+.btn:hover {
+    background-color: rgb(52,58,64);
+    color: rgb(163, 198, 110);
+    transform: scale(1.2);
+    border: 2px solid rgb(163, 198, 110);
+    animation: none;
+}

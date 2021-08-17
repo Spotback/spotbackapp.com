@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(52,58,64);
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(255,255,255);
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+}
+
+.icons-footer {
+    height: 15px;
+    margin: 5px;
+}
