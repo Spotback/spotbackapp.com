@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 // import spotback from '../../images/Spotbackb.png'
+import { Link } from '@reach/router';
 import spotback from '../../images/Spotbackw.png';
 import { CSSTransition } from 'react-transition-group';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -17,9 +18,9 @@ function Navbar() {
 	return (
 		<div className='header' style={{ backgroundColor: '#FFF' }}>
 			<div className='bg-color'></div>
-			<a href='/'>
+			<Link to='/'>
 				<img src={spotback} className='logo' alt='Spotback logo' />
-			</a>
+			</Link>
 			<>
 				<Media
 					query='(max-width: 599px)'
@@ -27,16 +28,16 @@ function Navbar() {
 						<>
 							<CSSTransition in={isNavVisible} timeout={350} classNames='Animation' unmountOnExit>
 								<nav className='head'>
-									<a className='links' href='/'>
+									<Link className='links' to='/'>
 										HOME
-									</a>
-									<a className='links' href='/about'>
+									</Link>
+									<Link className='links' to='about'>
 										ABOUT US
-									</a>
-									<a className='links' href='/learnMore'>
+									</Link>
+									<Link className='links' to='learnMore'>
 										{/* WAITLIST */}
 										LEARN MORE
-									</a>
+									</Link>
 								</nav>
 							</CSSTransition>
 							<button onClick={toggleNav} className='Burger'>
@@ -52,16 +53,16 @@ function Navbar() {
 					render={() => (
 						<>
 							<nav className='head'>
-								<a className='links' href='/'>
+								<Link className='links' to='/'>
 									HOME
-								</a>
-								<a className='links' href='/about'>
+								</Link>
+								<Link className='links' to='about'>
 									ABOUT US
-								</a>
-								<a className='links' href='/learnMore'>
+								</Link>
+								<Link className='links' to='learnMore'>
 									{/* WAITLIST */}
 									LEARN MORE
-								</a>
+								</Link>
 							</nav>
 						</>
 					)}

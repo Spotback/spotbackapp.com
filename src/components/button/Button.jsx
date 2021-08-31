@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from '@reach/router';
 import './button.css';
 
 function Button(props) {
 	return (
 		<div>
-			<a className='btn' href={props.href}>
+			<Link className='btn' to={props.to}>
 				{props.text}
-			</a>
+			</Link>
 		</div>
 	);
 }

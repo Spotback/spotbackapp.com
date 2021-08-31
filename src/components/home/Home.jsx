@@ -34,7 +34,7 @@ function Home(props) {
 		<div id='home'>
 			<LogoImg />
 			<p className='text-home'>A PEER TO PEER PARKING APPLICATION</p>
-			{/* <Button href='waitlist' text='JOIN WAITLIST' /> */}
+			{/* <Button to='waitlist' text='JOIN WAITLIST' /> */}
 			<div className='phoneContainer'>
 				<img className='phone' src={phone} alt='iphone X' />
 				<Slider {...settings}>
@@ -54,7 +54,7 @@ function Home(props) {
 					already parked in an awesome spot and willing to hold it, til you arrive, ensuring you get a spot
 					close to your desired destination.
 				</p>
-				<Button href='/learnMore' text='LEARN MORE!' />
+				<Button to='learnMore' text='LEARN MORE!' />
 			</div>
 		</div>
 	);
