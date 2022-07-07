@@ -14,8 +14,8 @@
 .img-container-about {
     /* background-color: rgb(52,58,64); */
     padding: 20px 0px 100px;
-    width: 80%;
-    max-width: 1000px;
+    /* width: 100%; */
+    /* max-width: 1000px; */
     border-radius: 10px;
 }
 

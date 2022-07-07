@@ -3,8 +3,9 @@ import './about.css';
 import LogoImg from '../logoImg/LogoImg';
 import TeamImg from '../teamImg/TeamImg';
 import joey from '../../images/joey.png';
-import dylan from '../../images/dylan.png';
-import dmitry from '../../images/dmitry.png';
+import camila from '../../images/camila.png';
+import shamaun from '../../images/shamaun.png';
+import david from '../../images/david.png';
 
 function About(props) {
 	return (
@@ -16,10 +17,16 @@ function About(props) {
 					src={joey}
 					alt='Joey profile picture'
 					name='Joey Caruana'
-					role='Product Manager/Software Developer'
+					role='Product Management/Mobile Developer'
 				/>
-				<TeamImg src={dylan} alt='Dylan profile picture' name='Dylan Corbus' role='Software Developer' />
-				<TeamImg src={dmitry} alt='Dmitry profile picture' name='Dmitry Sokolov' role='iOS Developer' />
+				<TeamImg
+					src={camila}
+					alt='Camila profile picture'
+					name='Camila Rodgriguez'
+					role='Mobile and Web Developer'
+				/>
+				<TeamImg src={shamaun} alt='Shamaun profile picture' name='Shamaun Anees' role='Operations' />
+				<TeamImg src={david} alt='David profile picture' name='David Bryant' role='Backend Developer' />
 			</div>
 			<div className='mission'>
 				<h1>Our Mission</h1>
