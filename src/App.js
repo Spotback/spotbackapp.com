@@ -24,7 +24,7 @@ function App() {
 			<Navbar />
 			<Router style={bg}>
 				<Home path='/' />
-				<About path='/about' />
+				<About path='/meetTheTeam' />
 				<Waitlist path='/learnMore' />
 			</Router>
 			<Footer />

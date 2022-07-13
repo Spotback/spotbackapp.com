@@ -31,8 +31,8 @@ function Navbar() {
 									<Link className='links' to='/'>
 										HOME
 									</Link>
-									<Link className='links' to='about'>
-										ABOUT US
+									<Link className='links' to='meetTheTeam'>
+										MEET THE TEAM
 									</Link>
 									<Link className='links' to='learnMore'>
 										{/* WAITLIST */}
@@ -41,7 +41,6 @@ function Navbar() {
 								</nav>
 							</CSSTransition>
 							<button onClick={toggleNav} className='Burger'>
-								{' '}
 								{isNavVisible ? <CloseIcon fontSize='large' /> : <MenuIcon fontSize='large' />}{' '}
 							</button>
 						</>
@@ -56,8 +55,8 @@ function Navbar() {
 								<Link className='links' to='/'>
 									HOME
 								</Link>
-								<Link className='links' to='about'>
-									ABOUT US
+								<Link className='links' to='meetTheTeam'>
+									MEET THE TEAM
 								</Link>
 								<Link className='links' to='learnMore'>
 									{/* WAITLIST */}
