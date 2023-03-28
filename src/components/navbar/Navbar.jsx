@@ -60,7 +60,10 @@ function Navbar() {
 								</Link>
 								<Link className='links' to='learnMore'>
 									{/* WAITLIST */}
-									LEARN MORE
+									DEMO
+								</Link>
+								<Link className='links' to='pitchDeck'>
+									PITCH DECK
 								</Link>
 							</nav>
 						</>

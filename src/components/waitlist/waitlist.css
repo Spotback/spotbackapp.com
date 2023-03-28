@@ -1,82 +1,90 @@
 #waitlist {
-    text-align: center;
+	text-align: center;
 }
 
 .text-waitlist {
-    padding: 50px 10px;
-    font-size: 25px;
-    font-family: "Mukta", sans-serif;
-    font-weight: 900;
+	padding: 50px 10px;
+	font-size: 25px;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 900;
 }
 
 .text-waitlist span {
-    display: block;
+	display: block;
 }
 
-input, .btn-waitlist {
-    margin: 5px 10px;
-    border-radius: 10px;
-    text-align: center;
+input,
+.btn-waitlist {
+	margin: 5px 10px;
+	border-radius: 10px;
+	text-align: center;
 }
 
 input {
-    padding: 20px;
-    font-size: 18px;
-    width: 300px;
+	padding: 20px;
+	font-size: 18px;
+	width: 300px;
 }
 
 .btn-waitlist {
-    padding: 18px 20px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    border: 2px solid rgb(52,58,64);
-    background-color: #A3C66E;
-    color: rgb(52,58,64);
+	padding: 18px 20px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	border: 2px solid rgb(52, 58, 64);
+	background-color: #a3c66e;
+	color: rgb(52, 58, 64);
 }
 
 .btn-waitlist:hover {
-    background-color: rgb(52,58,64);
-    color: rgb(163, 198, 110);
-    border: 2px solid rgb(163, 198, 110);
-    box-shadow: 0 0 10px rgb(195, 243, 124), 0 0 40px rgb(195, 243, 124), 0 0 80px rgb(195, 243, 124);
+	background-color: rgb(52, 58, 64);
+	color: rgb(163, 198, 110);
+	border: 2px solid rgb(163, 198, 110);
+	box-shadow: 0 0 10px rgb(195, 243, 124), 0 0 40px rgb(195, 243, 124), 0 0 80px rgb(195, 243, 124);
 }
 
 .video-txt {
-    font-family: "Mukta", sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    margin: 50px 5px 15px;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	margin: 0px 5px 15px;
+}
+
+.video-container {
+	width: 750px;
+	height: 500px;
 }
 
 iframe {
-    width: 715px;
-    height: 402px;
-    margin: 10px 10px 100px;
+	width: 715px;
+	height: 402px;
+	margin: 10px 10px 100px;
 }
 
 @media screen and (max-width: 750px) {
-
-    .text-waitlist {
-        font-size: 20px;
+    .video-container {
+        width: 550px;
+        height: 300px;
     }
+	.text-waitlist {
+		font-size: 20px;
+	}
 
-    input {
-        padding: 15px;
-        font-size: 16px;
-        width: 200px;
-    }
+	input {
+		padding: 15px;
+		font-size: 16px;
+		width: 200px;
+	}
 
-    .btn-waitlist {
-        padding: 15px;
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
+	.btn-waitlist {
+		padding: 15px;
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
 
-    iframe {
-        width: 90%;
-        /* height: 102px; */
-        margin: 10px 10px 100px;
-    }
-
+	iframe {
+		width: 90%;
+		/* height: 102px; */
+		margin: 10px 10px 100px;
+	}
 }

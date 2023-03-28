@@ -1,0 +1,35 @@
+#home {
+	font-family: 'Mukta', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+.text {
+	display: block;
+	padding: 50px 10px;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.container {
+	display: inline-block;
+	width: 70% !important;
+	max-width: 3200px;
+	vertical-align: top;
+	padding: 10px 70px 10px 70px;
+	color: rgb(255, 255, 255);
+	margin: 10px 30px 40px 50px;
+	border: 2px solid rgb(163, 198, 110);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgb(52, 58, 64), 0 0 30px rgb(52, 58, 64), 0 0 50px rgb(52, 58, 64);
+	background-color: rgba(52, 58, 64, 0.747);
+}
+
+.pitchScreens {
+	width: 90% !important;
+	margin: 80px 0;
+	border-radius: 20px;
+    /* border: 10px solid rgb(163, 198, 110); */
+}
+@media screen and (max-width: 889px) {
+}

@@ -33,7 +33,7 @@ function Home(props) {
 	return (
 		<div id='home'>
 			<LogoImg />
-			<p className='text-home'>A PEER TO PEER PARKING APPLICATION</p>
+			<p className='text-home'>Building a parking community for you, wherever you need to be.</p>
 			{/* <Button to='waitlist' text='JOIN WAITLIST' /> */}
 			<div className='phoneContainer'>
 				<img className='phone' src={phone} alt='iphone X' />
@@ -48,11 +48,11 @@ function Home(props) {
 				<p style={{ fontSize: '20px', fontWeight: '900' }}>FIND A GREAT PARKING SPOT</p>
 				<span>FROM PEOPLE IN YOUR COMMUNITY</span>
 				<p style={{ fontSize: '18px', fontWeight: '100', marginBottom: '30px' }}>
-					Anyone can find a spot for everyone, no matter where you are, or where you’re going, Spotback will
-					lead the way in stress free parking. You will no longer have to circle around and fight for a spot
-					when navigating a busy city. With the simple touch of a button, we will match you with someone
-					already parked in an awesome spot and willing to hold it, til you arrive, ensuring you get a spot
-					close to your desired destination.
+					Spotback can help you find a stress-free parking spot no matter where you are or where you're
+					headed. With just a tap of a button, we can match you with someone who is already parked in a great
+					spot and willing to hold it until you arrive. This means you no longer have to drive around and
+					compete for parking in a bustling city. You'll be able to park near your desired destination with
+					ease.
 				</p>
 				<Button to='learnMore' text='LEARN MORE!' />
 			</div>

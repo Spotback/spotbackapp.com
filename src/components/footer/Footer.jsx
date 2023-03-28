@@ -5,6 +5,7 @@ import facebook from '../../images/facebook.png';
 import twitter from '../../images/twitter.png';
 
 function Footer() {
+	const date = new Date();
 	return (
 		<div className='footer'>
 			<a href='https://www.facebook.com/spotbackapp/' target='blank'>
@@ -16,7 +17,7 @@ function Footer() {
 			<a href='https://twitter.com/Spotback2' target='blank'>
 				<img className='icons-footer' src={twitter} alt='Twitter logo' />
 			</a>
-			<p>Copyright © Spotback 2019</p>
+			<p>{`Copyright © Spotback ${date.getFullYear()}`}</p>
 		</div>
 	);
 }

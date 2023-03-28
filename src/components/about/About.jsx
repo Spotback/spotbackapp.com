@@ -2,10 +2,8 @@ import React from 'react';
 import './about.css';
 import LogoImg from '../logoImg/LogoImg';
 import TeamImg from '../teamImg/TeamImg';
-import joey from '../../images/joey.png';
-import camila from '../../images/camila.png';
-import shamaun from '../../images/shamaun.png';
-import david from '../../images/david.png';
+import camila from '../../images/camila2.jpg';
+import joey from '../../images/joey2.jpeg';
 
 function About(props) {
 	return (
@@ -25,16 +23,14 @@ function About(props) {
 					name='Camila Rodgriguez'
 					role='Mobile and Web Developer'
 				/>
-				<TeamImg src={shamaun} alt='Shamaun profile picture' name='Shamaun Anees' role='Operations' />
-				<TeamImg src={david} alt='David profile picture' name='David Bryant' role='Backend Developer' />
 			</div>
 			<div className='mission'>
 				<h1>Our Mission</h1>
 				<p>
-					At Spotback we think parking should be stress free, easy to find, and highly available. Our goal is
-					to create parking spaces near your desired destination to save you time, money and frustration. We
-					provide a platform that allows users the ability to communicate with other people looking for a spot
-					or leaving their spot.
+					Our mission at Spotback is to provide a stress-free and accessible parking experience that saves our
+					users time, money, and frustration. We aim to achieve this by creating parking spaces in close
+					proximity to their desired destination. To accomplish our goal, we offer a user-friendly platform
+					that facilitates communication between those in search of a parking spot and those vacating one.
 				</p>
 			</div>
 		</div>

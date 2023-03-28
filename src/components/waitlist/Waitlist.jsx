@@ -3,6 +3,7 @@ import React from 'react';
 // import { navigate } from '@reach/router';
 import './waitlist.css';
 import LogoImg from '../logoImg/LogoImg';
+import video from '../../videos/demo.MOV'
 
 function Waitlist() {
 	// const [emailState, setEmailState] = useState({
@@ -21,9 +22,7 @@ function Waitlist() {
 		<div id='waitlist'>
 			<LogoImg />
 			<p className='text-waitlist'>
-				{' '}
-				<span>FIND A GREAT PARKING SPOT FROM PEOPLE LEAVING,</span>{' '}
-				<span>WHEN YOU NEED IT, AND WHERE YOU WANT IT</span>
+				<span>Building a parking community for you, wherever you need to be.</span>
 			</p>
 			{/* <form onSubmit={onSubmitHandler}>
 				<input
@@ -38,13 +37,16 @@ function Waitlist() {
 				</button>
 			</form> */}
 			<p className='video-txt'>Watch the video</p>
-			<iframe
+			{/* <iframe
 				title='waitlist'
 				src='https://www.youtube.com/embed/h26EbkpzI5k'
 				frameborder='0'
 				allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
 				allowfullscreen
-			></iframe>
+			></iframe> */}
+			<video className='video-container' controls>
+				<source src={video} type='video/mp4' />
+			</video>
 		</div>
 	);
 }

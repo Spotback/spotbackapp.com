@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Waitlist from './components/waitlist/Waitlist';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
+import PitchDeck from './components/pitchDeck/PitchDeck';
 
 function App() {
 	const bg = {
@@ -26,6 +27,7 @@ function App() {
 				<Home path='/' />
 				<About path='/meetTheTeam' />
 				<Waitlist path='/learnMore' />
+				<PitchDeck path='/pitchDeck' />
 			</Router>
 			<Footer />
 		</div>
